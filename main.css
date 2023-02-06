@@ -1,0 +1,158 @@
+/*navbar*/
+.logo{
+    height:90px;
+    margin:10px;
+}
+header{
+    background-color:rgb(53, 86, 109);
+    text-decoration: solid;
+}
+.navbar{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 85%;
+    margin: auto;
+}
+nav{
+    float:right;
+}
+nav ul{
+    list-style: none;
+    margin: auto;
+}
+nav li{
+    display:inline-block;
+    margin: 0px 5px;
+    padding-top:39px;
+    position: relative;
+}
+nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: x-large;
+    padding: 20px 16px;
+}
+nav a:hover{
+    background-color: rgb(88, 203, 211);
+    color: rgb(245, 235, 199);
+}
+nav a.active{
+    background-color: rgb(162, 196, 201);
+    color: rgb(245, 235, 199);
+}
+
+/*General use css of text wrapping*/
+.container {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.container.space-around {
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(162, 196, 201);
+    overflow-wrap: break-word;
+    font-size: 30px;
+    background-color: rgb(53, 86, 109);
+}
+
+/*code to align home and menu pictures*/
+.row {
+    display: flex;
+    padding: 5%;
+  }
+
+/*home text css*/
+.picture {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    color: rgb(245, 235, 199);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+/*css of the button going to the About us page, from the home page*/
+.button1 {
+    background-color: rgb(53, 86, 109);
+    color: rgb(245, 235, 199);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-size: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid rgb(221, 221, 130);
+    display: inline-block;
+    cursor: pointer;
+  }
+
+/*Home button css*/
+.button2 {
+    background-color: rgb(53, 86, 109);
+    color: rgb(245, 235, 199);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid rgb(221, 221, 130);
+  }
+
+/*Home picture style*/
+  .picture3 {
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px #CCC
+}
+
+/*Text and image styles for the menu*/
+.menutext {
+    background-color: rgb(162, 196, 201);
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(245, 235, 199);
+    padding:20px;
+  }
+
+.picture2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menuimg {
+    object-fit:cover;
+    object-position: center;
+    width: 400px;
+    height: 250px;
+    border: solid 1px #CCC"
+  } 
+
+  /* Style The Dropdown Button */
+.dropbtn {
+    background-color: rgb(53, 86, 109);   
+    width: 100%;  
+    color:rgb(245, 235, 199);
+    padding: 15px;   
+    margin: 10px 0px;   
+    border: none;   
+    cursor: pointer;  
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    width: 97%;
+    position: relative;
+    display: inline-block;
+    padding: 25px;   
+    background-color: rgb(162, 196, 201);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(53, 86, 109);
+    font-size: x-large;
+  }
+  
